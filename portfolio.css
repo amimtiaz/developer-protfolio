@@ -12,7 +12,7 @@ sans-serif;
 }
 
 .btn-primary{
-    width: 150px;
+
     height: 64px;
     flex-shrink: 0;
     background-color: #FD6E0A;
@@ -35,6 +35,7 @@ nav {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0 200px;
 }
 
 .nav-title {
@@ -58,4 +59,20 @@ nav li {
 nav a {
     text-decoration: none;
     color: #474747;
+}
+
+/* header related style */
+
+.header{
+    background: #FFF8F3;
+}
+
+.banner {
+   padding: 50px 30px 30px 150px; 
+   display: flex;
+   align-items: center;
+}
+
+.banner .profile-pic{
+    width: 500px;
 }
