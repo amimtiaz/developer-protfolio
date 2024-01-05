@@ -116,11 +116,14 @@ max-width: 500px;
     padding: 130px;
     border-radius: 10px;
     background: #FFF8F3;
-    margin-left: 230px;
-    margin-right: 230px;
     border-radius: 10px;
     margin-top: 130px;
     margin-bottom: 130px;
+}
+
+main{
+    width: 1140px;
+    margin: 0 auto;
 }
 
 .section-title{
@@ -139,6 +142,64 @@ max-width: 500px;
     font-style: normal;
     font-weight: 400;
     line-height: 30px; 
+    margin-top: 30px;
 }
 
 /* about section styles */
+
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+
+.about-info{
+    text-align: center;
+}
+
+.info-title{
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+.info-description{
+    color: var(--Dark-02, #474747);
+    font-family: Open Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 30px;
+}
+
+#what-id-do-description{
+ padding-left: 150px;
+ padding-right: 150px; 
+ padding-bottom: 30px;
+}
+.skill-container{
+    display: flex;
+    margin-left: 24px;
+    align-content: space-between;
+}
+.skill{
+    border-radius: 5px;
+    background: #FFF;
+    padding: 30px;
+
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+    gap: 24px;
+}
+
+.skill-description{
+   
+    margin-top: 20px;
+}
+
+.skill-title{
+    margin-top: 30px;
+}
