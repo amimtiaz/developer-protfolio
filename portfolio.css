@@ -1,4 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 /* common shared style */
+
 
 body {
 font-family: 'Lato',
@@ -65,14 +70,75 @@ nav a {
 
 .header{
     background: #FFF8F3;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
-   padding: 50px 30px 30px 150px; 
+   padding: 50px 30px 0px 150px; 
    display: flex;
    align-items: center;
+   justify-content: space-between;
+}
+
+.banner-content{
+max-width: 500px;
 }
 
 .banner .profile-pic{
     width: 500px;
 }
+
+.banner-greeting{
+    color: var(--Dark-02, #474747);
+    font-size: 45px;
+    margin-bottom: 0px;
+}
+
+.banner-title{
+    color: var(--Dark-01, #181818);
+    font-family: Open Sans;
+    font-size: 85px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.banner-description {
+    color: var(--Dark-03, #757575);
+    font-size: 18px;
+    width: 585px;
+    margin-top: 20px;
+}
+
+/* main section styles */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin-left: 230px;
+    margin-right: 230px;
+    border-radius: 10px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+.section-title{
+    color:  #181818;
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.section-description{
+    color: var(--Dark-03, #7f7f7f);
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px; 
+}
+
+/* about section styles */
