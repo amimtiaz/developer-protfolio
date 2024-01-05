@@ -1,0 +1,61 @@
+/* common shared style */
+
+body {
+font-family: 'Lato',
+sans-serif;
+font-family: 'Open Sans', 
+sans-serif;
+}
+
+.text-primary {
+    color: #FD6E0A;
+}
+
+.btn-primary{
+    width: 150px;
+    height: 64px;
+    flex-shrink: 0;
+    background-color: #FD6E0A;
+    stroke: none;
+    border-radius: 5px;
+    color: var(--White-Color, #FFF);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    border: 0;
+    padding-top: 18px;
+    padding-bottom: 18px;
+    padding-left: 35px;
+    padding-right: 35px;
+}
+
+/* nav related css */
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-title {
+color: var(--Dark-01, #181818);
+font-size: 45px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #474747;
+}
